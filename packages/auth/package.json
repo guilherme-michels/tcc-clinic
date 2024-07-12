@@ -1,0 +1,22 @@
+{
+  "name": "@clinic/auth",
+  "version": "0.0.0",
+  "private": true,
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "devDependencies": {
+    "@clinic/eslint-config": "workspace:*",
+    "@clinic/prettier": "workspace:*",
+    "@clinic/tsconfig": "workspace:*"
+  },
+  "eslintConfig": {
+    "extends": [
+      "@clinic/eslint-config/library"
+    ]
+  },
+  "prettier": "@clinic/prettier",
+  "dependencies": {
+    "@casl/ability": "^6.7.1",
+    "zod": "^3.22.4"
+  }
+}

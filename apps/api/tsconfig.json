@@ -1,0 +1,10 @@
+{
+  "extends": "@clinic/tsconfig/node.json",
+  "include": ["src/**/*", "@types/*.d.ts"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
